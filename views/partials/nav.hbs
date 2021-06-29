@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light z-depth-5 shadow-lg p-3" id = 'navTarget'>
-  <a class="navbar-brand" href="/">Home</a>
+  <a class="navbar-brand navbtn" href="/">Home</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -8,17 +8,18 @@
       <li class="nav-item">
         <div class="dropdown">
 
-            <button class="dropbtn">Creative Outputs</button>
+            <button class="dropbtn navbtn" id = 'drpbtn'>Creative Outputs</button>
             <div class="dropdown-content" >
-                <a class='nav-link disabled' href="#">Creative Output 1</a>
+                <a class='nav-link navbtn' id='create1' href="#">Creative Output 1</a>
                 <a class='nav-link disabled' href="#">Creative Output 2</a>
                 <a class='nav-link disabled' href="#">Creative Output 3</a>
             </div>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" id="dis-blog" href="#">Blogs</a>
+        <a class="nav-link disabled navbtn" id="dis-blog" href="#">Blogs</a>
       </li>
     </ul>
   </div>
 </nav>
+

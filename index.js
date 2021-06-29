@@ -13,12 +13,12 @@ app.set('view engine', 'hbs');
 hbs.registerPartials(__dirname + "/views/partials");
 app.use(express.static('public'));
 
-app.get("/", function(req, res)
-{
-       res.render("homepage", {});
-});
+app.use('/', routes);
+
 
 app.listen(port, function()
 {
     console.log('listening at port ' + port);
 });
+
+module.exports = app;
