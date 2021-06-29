@@ -64,7 +64,13 @@ display: block;
 }
 .dropdown:hover .dropdown-content {display: block;}
 
-.mid
+#main
 {
-    width: 200vw;
+    background-image: url('../images/manright.png');
+    background-size: cover;
+}
+#maintenance
+{
+    background-image: url('../images/maintenance.png');
+    background-size: cover;
 }
