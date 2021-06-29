@@ -68,9 +68,11 @@ display: block;
 {
     background-image: url('../images/manright.png');
     background-size: cover;
+
 }
 #maintenance
 {
     background-image: url('../images/maintenance.png');
-    background-size: cover;
+    background-size: auto;
+
 }
