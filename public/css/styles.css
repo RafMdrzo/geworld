@@ -1,0 +1,36 @@
+*
+{
+    font-family: 'Roboto', sans-serif;
+    src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap);
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+.navbar
+{
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px white;
+}
+
+.navTarget
+{
+    color: black;
+    font-weight: bolder;
+}
+
+#spanner
+{
+    position: relative;
+    top: 15vh ;
+    color: black;
+    word-wrap: break-word;
+
+    max-height: 40vh;
+    max-width: 150vw;
+}
