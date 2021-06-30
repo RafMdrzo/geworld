@@ -22,5 +22,14 @@ $( document ).ready(function()
     } catch {
         console.log("");
     }
+    try{
+        var maintenance = new Typed('#intercon', {
+            strings:["Interconnectedness and Interdependence."],
+            backSpeed: 65,
+            typeSpeed: 55
+        });
+    } catch {
+        console.log("");
+    }
 
 });

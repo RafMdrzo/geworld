@@ -18,7 +18,7 @@ $( document ).ready(function()
         $(this).css('border-radius', '0');
     }, function(){
         $(this).css('color', 'white');
-        $(this).css('background-color', '#73D2DE');
+        $(this).css('background-color', '#9D5F38');
         $(this).css('border-radius', '0vh');
     });
 
@@ -28,7 +28,7 @@ $( document ).ready(function()
         $(this).css('border-radius', '0');
     }, function(){
         $(this).css('color', 'white');
-        $(this).css('background-color', '#BD75BA');
+        $(this).css('background-color', '#D19C4C');
         $(this).css('border-radius', '0vh');
     });
 
@@ -38,7 +38,7 @@ $( document ).ready(function()
         $(this).css('border-radius', '0');
     }, function(){
         $(this).css('color', 'white');
-        $(this).css('background-color', '#3066BE');
+        $(this).css('background-color', '#25963E');
         $(this).css('border-radius', '0vh');
     });
 });
