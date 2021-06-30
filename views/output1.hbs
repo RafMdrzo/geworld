@@ -11,11 +11,15 @@
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
     crossorigin="anonymous"></script>
 <script src="/js/home.js"></script>
+<script src="/js/highlighter.js"></script>
 <script src="/js/typed.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <!-- STYLES -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 <link rel="stylesheet" href="/css/styles.css">
 
 <title>
@@ -23,49 +27,33 @@
 </title>
 </head>
 
-<body id = 'maintenance'>
+<body data-aos='zoom-in'data-aos-duration='1500'>
     {{> nav}}
-    <div class="container" align="center">
-        <!-- TOP ROW -->
-        <div class= "row">
-            <div class="col">
-            </div>
 
-            <div class = "col" class="mid">
-                    <div id="spanner">
-                        <h1><span id="undermain"></span></h1>
-                    </div>
-            </div>
-
-            <div class = "col">
-            </div>
+    <!-- BG2 -->
+    <div class="row splitRow filler bg1" data-aos="fade-right" data-aos-duration='1500'>
+        <div class="column col-color">
+            <h2>Column 1</h2>
+            <p>Some <u class='highlighter1'>text</u>..</p>
         </div>
-
-        <!-- MIDDLE ROW -->
-        <div class= "row">
-            <div class="col">
-            </div>
-
-            <div class = "col" class="mid">
-            </div>
-
-            <div class = "col">
-            </div>
-        </div>
-
-        <!-- BOTTOM ROW -->
-        <div class= "row">
-            <div class="col">
-            </div>
-
-            <div class = "col" class="mid">
-                
-            </div>
-
-            <div class = "col">
-            </div>
+        <div class="column col-color">
+            <h2>Column 2</h2>
+            <p>Some <u class='highlighter1'>text</u>..</p>
         </div>
     </div>
+    
+    <!-- BG2 -->
+    <div class="row splitRow filler  bg2" data-aos="fade-left" data-aos-duration='1500'>
+        <div class="column col-color">
+            <h2>Column 1</h2>
+            <p>Some <u class='highlighter2'>text</u>..</p>
+        </div>
+        <div class="column col-color">
+            <h2>Column 2</h2>
+            <p>Some <u class='highlighter2'>text</u>..</p>
+        </div>
+    </div>
+
 </body>
 
 </html>
