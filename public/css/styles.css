@@ -4,9 +4,10 @@
     src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap);
 }
 /* Hide scrollbar for Chrome, Safari and Opera */
+/*
 ::-webkit-scrollbar {
     display: none;
-  }
+  } */
   
 
 .navbar
@@ -75,4 +76,38 @@ display: block;
     background-image: url('../images/maintenance.png');
     background-size: auto;
 
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 2vw;
+    height: 75vh; 
+    color: white;
+  }
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.splitRow{
+    margin: 1vw;
+    border-radius: 7.5px;
+}
+    
+/* BACKGROUNDS */
+.bg1{
+    background-image: url('../images/bg1.png');
+    border-radius: 7.5px;
+}
+.bg2{
+    background-image: url('../images/bg2.png');
+    border-radius: 7.5px;
+}
+.bg3{
+    background-image: url('../images/bg3.png');
+    border-radius: 7.5px;
 }

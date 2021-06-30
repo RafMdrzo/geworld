@@ -1,8 +1,5 @@
 $( document ).ready(function()
 {
-    
-    
-   
     $("#create1").click(function()
     {
         window.location.href = "/create1";
@@ -26,14 +23,4 @@ $( document ).ready(function()
         console.log("");
     }
 
-    
-    $('.navbtn').hover(function(){
-        $(this).css('color', 'white');
-        $(this).css('background-color', '#D8DBE2');
-        $(this).css('border-radius', '1vh');
-    }, function(){
-        $(this).css('color', 'black');
-        $(this).css('background-color', 'white');
-        $(this).css('border-radius', '0vh');
-    });
 });
