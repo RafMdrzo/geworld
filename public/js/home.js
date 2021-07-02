@@ -31,5 +31,14 @@ $( document ).ready(function()
     } catch {
         console.log("");
     }
+    try{
+        var maintenance = new Typed('#bounds', {
+            strings:["Territories, Boundaries, and Rights."],
+            backSpeed: 65,
+            typeSpeed: 55
+        });
+    } catch {
+        console.log("");
+    }
 
 });
