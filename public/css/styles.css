@@ -65,8 +65,9 @@ display: block;
 
 #main
 {
-    background-image: url('../images/manright.png');
+    background-image: url('../images/flat.png');
     background-size: cover;
+    background-repeat: no-repeat;
 
 }
 #maintenance
@@ -132,3 +133,12 @@ display: block;
     text-align: center;
     margin-top: 4vh;
 }
+.flatter{
+    align-items: left;
+    width: 30vw;
+}
+#pls{
+    color: white;
+}
+
+

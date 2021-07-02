@@ -5,6 +5,7 @@ $( document ).ready(function()
     $('.navbtn').hover(function(){
         $(this).css('color', 'white');
         $(this).css('background-color', '#D8DBE2');
+        $(this).css('height', '100%');
         $(this).css('border-radius', '1vh');
     }, function(){
         $(this).css('color', 'black');
@@ -16,6 +17,7 @@ $( document ).ready(function()
         $(this).css('color', 'white');
         $(this).css('background-color', 'black');
         $(this).css('border-radius', '0');
+        
     }, function(){
         $(this).css('color', 'white');
         $(this).css('background-color', '#9D5F38');
