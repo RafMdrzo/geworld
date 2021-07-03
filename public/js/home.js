@@ -1,5 +1,14 @@
 $( document ).ready(function()
 {
+
+    
+    function typeIt(text) {
+        var bounds = new Typed('#bounds', {
+            strings:["Territories, Boundaries, and Rights."],
+            backSpeed: 65,
+            typeSpeed: 55
+        });
+    }
     $("#create1").click(function()
     {
         window.location.href = "/create1";
@@ -31,14 +40,21 @@ $( document ).ready(function()
     } catch {
         console.log("");
     }
+    var typing = false;
     try{
-        var maintenance = new Typed('#bounds', {
-            strings:["Territories, Boundaries, and Rights."],
-            backSpeed: 65,
-            typeSpeed: 55
+        
+        $(window).scroll(function() {
+          if ($(window).scrollTop() > 2000 && typing == false) {
+            typing = true;
+            typeIt("");
+          }
         });
     } catch {
         console.log("");
     }
+    
+
 
 });
+
+

@@ -99,6 +99,13 @@ display: block;
     margin-top: 3vw;
     border-radius: 7.5px;
 }
+.greet-cont h1{
+    font-size: 4vw;
+}
+
+.column h2{
+    font-size: 3vw;
+}
     
 /* BACKGROUNDS */
 .bg1{
@@ -141,4 +148,25 @@ display: block;
     color: white;
 }
 
+/* CONTENT */
+.content-1{
+    background-image: url('../images/content-1.png');
+    background-repeat: no-repeat;
+}
 
+.content-2{
+    background-image: url('../images/content-2.png');
+    background-repeat: no-repeat;
+}
+.content-3{
+    background-image: url('../images/content-3.png');
+    background-repeat: no-repeat;
+}
+.content-4{
+    background-image: url('../images/content-4.png');
+    background-repeat: no-repeat;
+}
+.content-5{
+    background-image: url('../images/content-5.png');
+    background-repeat: no-repeat;
+}
