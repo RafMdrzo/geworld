@@ -170,3 +170,13 @@ display: block;
     background-image: url('../images/content-5.png');
     background-repeat: no-repeat;
 }
+
+.p-less{
+    font-size: 1.80vw;
+}
+.p-normal{
+    font-size: 1.50vw;
+}
+.p-more{
+    font-size: 1.40vw;
+}
