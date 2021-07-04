@@ -170,7 +170,24 @@ display: block;
     background-image: url('../images/content-5.png');
     background-repeat: no-repeat;
 }
+.content-6{
+    background-image: url('../images/content-6.png');
+    background-repeat: no-repeat;
+}
+.content-7{
+    background-image: url('../images/content-7.png');
+    background-repeat: no-repeat;
+}
+.content-8{
+    background-image: url('../images/content-8.png');
+    background-repeat: no-repeat;
+}
+.content-9{
+    background-image: url('../images/content-9.png');
+    background-repeat: no-repeat;
+}
 
+/*ACCOMPANYING CONTENT*/
 .p-less{
     font-size: 1.80vw;
 }
@@ -179,4 +196,16 @@ display: block;
 }
 .p-more{
     font-size: 1.40vw;
+}
+
+/*REFERENCES*/
+.bgREF1{
+    color: black;
+}
+
+
+.bgREF2{
+    background-color: black;
+    color: white;
+    border-radius: 7.5px;
 }
