@@ -20,7 +20,7 @@ $( document ).ready(function()
         
     }, function(){
         $(this).css('color', 'white');
-        $(this).css('background-color', '#9D5F38');
+        $(this).css('background-color', '#72B49D');
         $(this).css('border-radius', '0vh');
     });
 
@@ -30,7 +30,7 @@ $( document ).ready(function()
         $(this).css('border-radius', '0');
     }, function(){
         $(this).css('color', 'white');
-        $(this).css('background-color', '#D19C4C');
+        $(this).css('background-color', '#C9BDA4');
         $(this).css('border-radius', '0vh');
     });
 
@@ -40,7 +40,7 @@ $( document ).ready(function()
         $(this).css('border-radius', '0');
     }, function(){
         $(this).css('color', 'white');
-        $(this).css('background-color', '#25963E');
+        $(this).css('background-color', '#725544');
         $(this).css('border-radius', '0vh');
     });
 });
